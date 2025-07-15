@@ -1,0 +1,37 @@
+.carousel:focus,
+.carousel-item:focus,
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+/* Optional: Override Bootstrap's default green color */
+:root {
+    --bs-secondary-color: transparent !important;
+}
+/* .carousel {
+    transition: margin-left 0.3s ease-in-out;
+} */
+.card-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px; /* Set minimum height */
+    text-align: center;
+}
+.card-product img {
+    width: 100%;  /* Ensure it takes the full width of the card */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure it scales properly without distortion */
+}
+.slick-slide {
+    padding: 10px; /* Adds gap between slides */
+}
+@media (max-width: 768px) {
+    .slick-slide {
+        padding: 8px;
+    }
+}

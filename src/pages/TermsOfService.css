@@ -1,0 +1,48 @@
+.tos-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .tos-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .tos-updated {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .tos-section {
+    margin-bottom: 40px;
+  }
+  
+  .tos-section h2 {
+    font-size: 22px;
+    color: #2e4a84;
+    margin-bottom: 10px;
+  }
+  
+  .tos-section p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .tos-section ul {
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .tos-section li {
+    margin-bottom: 8px;
+  }
+  

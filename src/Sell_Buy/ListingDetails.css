@@ -1,0 +1,234 @@
+/* .listing-details {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+
+.listing-details h2 {
+    font-size: 50px;
+    color:black;
+    margin-bottom: 15px;
+}
+
+.listing-details img {
+    width: 50vw;
+    max-height: 150vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom:25px;
+}
+
+.listing-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.listing-details a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25d366;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.listing-details a:hover {
+    background-color: #1ebe5d;
+}
+
+.listing-details strong {
+    color: #222;
+    font-weight: bold;
+} */
+/* .listing-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .main-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  .related-title {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .related-grid {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
+  .related-card {
+    flex: 0 0 200px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .related-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .related-card h4 {
+    margin: 5px 0;
+  }
+   */
+   .listing-details-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Product Image and Info Side by Side */
+  .product-main {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Space between image and details */
+  }
+  /* .product-main img{
+    width: 50%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  } */
+  /* Image Container */
+.image-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    max-height: 60vh;
+  }
+  
+  /* Image Styling */
+  .product-image {
+    width: 50%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Product Information */
+  .product-info {
+    flex: 1;
+    text-align: left;
+  }
+  .product-info p{
+    font-size: 20px;
+  }
+  .product-info a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25d366;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.product-info a:hover {
+    background-color: #1ebe5d;
+}
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Related Items Section */
+  .related-title {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .related-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* overflow-x: auto; */
+  }
+  
+  .related-card {
+    flex: 0 0 200px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .related-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .related-card h4 {
+    margin: 5px 0;
+  }
+  
+  /* 📱 Responsive Design */
+  @media screen and (max-width: 768px) {
+    .product-main {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+      text-align: center;
+    }
+  
+    .product-image {
+      width: 100%; /* Make image larger on small screens */
+    }
+    .related-grid {
+        flex-wrap: wrap; 
+        justify-content: center;
+      }
+    
+  
+    .product-info {
+      text-align: center;
+      
+    }
+    .product-info p{
+        font-size: 16px;
+    }
+
+  }
+  
+
+  

@@ -1,0 +1,172 @@
+
+
+.text-center {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .image {
+    padding:20px 0;
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+    opacity: 50%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+.cont {
+    width: 100%;
+    /* max-width: 1200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Profile & My Profile common styles */
+.profile-container, 
+.my_profile {
+    width: 100%;
+    /* max-width: 500px; */
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+    margin-bottom: 20px; /* Space between sections */
+}
+.my_profile{
+    background-color: beige;
+}
+
+/* Profile Header */
+.profile-container h2,
+.my_profile h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Profile Photo */
+.profile-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #007bff;
+}
+
+/* Form Labels */
+.profile-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+/* Input Fields */
+.profile-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.profile-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.profile-form button:hover {
+    background-color: #0056b3;
+}
+
+/* My Profile Image */
+.my_profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* My Profile Text */
+.my_profile p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .cont {
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+    }
+
+    .profile-container, 
+    .my_profile {
+        width: 48%; /* Adjust width for side-by-side view */
+        margin-bottom: 0;
+        /* height: 50vh; */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-container, 
+    .my_profile {
+        width: 100%;
+        padding: 15px;
+        height: 50vh;
+    }
+
+    .profile-photo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-form input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .profile-form button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

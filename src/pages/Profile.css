@@ -1,0 +1,30 @@
+.profile-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-info, .profile-listings {
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p, .profile-listings p {
+    margin: 5px 0;
+  }
+  
+  .profile-listings ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-listings li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  

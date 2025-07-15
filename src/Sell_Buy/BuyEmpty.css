@@ -1,0 +1,47 @@
+.empty-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    background-color: #f0f2f5;
+  }
+  
+  .empty-box {
+    text-align: center;
+  }
+  
+  .empty-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+  }
+  
+  .empty-title {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .empty-text {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buying a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .buying a:hover {
+    background-color: #165cdb;
+  }
+  

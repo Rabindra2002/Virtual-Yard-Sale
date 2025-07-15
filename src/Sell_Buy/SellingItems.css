@@ -1,0 +1,10 @@
+.sell{
+    padding:50vh 0;
+    text-align:center;
+}
+.sell h2{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #333;
+}
